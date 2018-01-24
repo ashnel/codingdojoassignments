@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+	margin: 0;
+	}
+
+#wrapper {
+    width: 100%;
+    background-color: pink;
+    margin: 0px auto;
+}
+
+#header, #footer {
+    width: 100%;
+    background-color: #fdfdfd;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.left-header {
+    font-family: 'Comic Sans MS';
+}
+
+h2, p, #footer, #green-button, .right-header {
+    font-family: Arial;
+}
+
+a {
+    color: black;
+}
+
+.header-text {
+    display: inline-block;
+    margin: 15px;       
+}
+
+.right-header {
+    text-align: right;    
+    margin-left: 400px; 
+}
+
+.left-header {
+    text-align: left;     
+    margin-right: 300px;
+}
+
+#main-content {
+    width: 100%;
+    background: linear-gradient(black, #be598c, black);
+    
+}
+
+.selfie {
+    width: 600px;
+    margin: 20px;
+    border: 6px solid #c0c0c0;
+}
+
+.about-box {
+    width: 750px;   
+    height: 406.73px;
+}
+
+.about-box, .trio-box {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.about-header, .trio-header {
+    height: 50px;
+    line-height: 50px;
+    background: linear-gradient(#cdcdcf, #9898a3, #cdcdcf); 
+    color: white;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.about-info p, .trio-info p {
+    margin-top: 10px;
+    margin-right: 12px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.trio {
+    display: inline-block;
+    margin: 20px;
+}
+
+.trio-box, .trio-img {
+    width: 441px;
+}
+
+.trio-box {
+    height: 700px;  
+    background: linear-gradient(to right, white, #dfd2de);
+}
+
+.trio-header.second {
+   position: absolute;
+   bottom: -325px;
+   width: 431px;
+}
+
+.trio-techimg {
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#img-box {
+    margin-top: 115px;
+}
+
+#img-box-second {
+    margin-top: 98px;
+}
+
+#img-box-third {
+    margin-top: 60px;
+}
+
+#green-button {
+    background-color: #42966a;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 170px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.icons {
+    height: 20px;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+
+#footer {
+    height: 50px;
+    line-height: 25px;
+}

@@ -1,0 +1,253 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+#wrapper {
+    width: 970px;
+    background-color: white;
+    margin: 0px auto;
+    font-family: Helvetica;
+}
+
+#wrapper, #subheader {
+    padding: 10px;
+}
+
+#header, #main-content {
+    margin: -10px -10px auto -10px;
+}
+
+#logo {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: rgb(71, 71, 71);
+}
+
+#logo img {
+    margin-bottom: -30px;
+    height: 80px;
+    display: inline-block;
+}
+
+#logo h1 {
+    display: inline-block;
+}
+
+#subheader {
+    padding-top: 10px;
+    background: linear-gradient(rgb(38, 103, 159), rgb(81, 130, 172), rgb(38, 103, 159));
+    color: white;
+}
+
+#main-content {
+    background: linear-gradient(#e5e5e5, #ffffff, #ffffff, #ffffff);
+    margin-bottom: -10px;
+}
+
+#client-img img {
+    width: 30%;
+}
+
+#client-img {
+    text-align: center;
+}
+
+#contact #phone-icon, #contact #call-box {
+    margin-top: -23px;
+}
+
+#information {
+    width: 76%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 35px;
+    position: relative;
+    text-align: center;
+}
+
+#home-link {
+    width: 93%;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+#home-link p {
+    display: inline-block;
+    padding-bottom: -20px;
+    font-size: 12px;
+}
+
+#home-icon {
+    width: 20px;
+}
+
+#phone-icon {
+    width: 45px;
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+    right: 18%;
+    transform: translate(-50%, -50%);
+}
+
+#call-box {
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+}
+
+#info-divider {
+    width: 100%;
+    border: solid #c0c0c0 1px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-info {
+    margin-top: 10%;
+    text-align: left;
+    font-size: 14px;
+}
+
+#main-info p, #main-info ul, #main-info ol {
+    margin-top: 3px;
+}
+
+#main-info ul, #main-info ol {
+    margin-left: 50px;
+}
+
+#main-info li {
+    margin: 5px 0;
+}
+
+#box-info {
+    height: 100%;
+    border: solid #1b92e3 5px;
+    border-bottom: none;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#box-info img, #box-info h2, #box-info p {
+    display: inline-block;
+}
+
+#box-info img{
+    height: 100px;
+}
+
+#box-text {
+    width: 79%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+#sidebar {
+    width: 18%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px 1px #8a8f93;
+}
+
+#vidbttn {
+    background-color: #407caf;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#rscbttn {
+    background-color: #ee8300;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#divider {
+    width: 100%;
+    border: solid #c0c0c0 1px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ad {
+    position: relative;
+    text-align: center;
+}
+
+#background {
+    width: 100%;
+    display: block; 
+    margin: 0 auto;
+    background-image: url("ad_background.png");
+}
+
+#ad-text {
+    width: 75%;
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+#ad-logo {
+    width: 55%;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#ad-button {
+    background-color: #26c7df;
+    width: 80%;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    font-size: 12px;
+    transform: translate(-50%, -50%);
+    border: solid 1px black;
+    box-shadow: none;
+}
+
+#arrow1 {
+    opacity: 0.3;
+}
+
+#arrow2 {
+    opacity: 0.7;
+}
+

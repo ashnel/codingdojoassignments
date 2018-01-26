@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+body {
+    background-color: #d5d2ae;
+    width: auto;
+}
+
+#header {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial;
+}
+
+#boxes {
+    text-align: center;
+}
+
+#boxes .box {
+    width: 16%;
+    height: 20%;
+    outline: 5px solid;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    background-color: #f36870;
+}
+
+#boxes .inner {
+    box-sizing: border-box;
+    border: 20px solid #82b4ee;
+    outline: 5px solid;
+}

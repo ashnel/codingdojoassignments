@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+        background-color: #dddfd4;
+}
+
+#wrapper {
+    padding: 50px;
+    border: 3px solid pink;
+}
+
+#header {
+    width: 100%;    
+    background-color: aqua;
+    padding: 10px;
+}
+
+#header, #header #logo, #header img, #header h1, #nav-links {
+    display: inline-block;
+}
+
+#header img {
+  height: 50px;
+  position: absolute;
+  left: 0;
+  margin-left: 2%;
+}
+
+#header h1 {
+  width: 120%;
+  text-align: center;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 40%;
+}
+
+#nav-links {
+    margin: auto;
+    width: 50%;
+    text-align: right;
+    margin-left: 25%;
+    border: 3px solid green;
+}
+

@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+    padding: 20px;
+    position: relative;
+}
+
+#submission {
+    text-align: left;
+    width: 405px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+}
+
+form div {
+    margin: 10px;
+}
+
+label {
+    padding-right: 5px;
+}
+
+form div:nth-child(3) {
+    margin-top: 30px;
+}
+
+textarea {
+    margin-top: 7px;
+    padding: 5px;
+    resize: none;
+}
+
+input[type=text] {
+    width: 275px;
+    padding: 5px;
+}
+
+.submit {
+    display: block;
+    margin: 10px;
+    margin-top: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#cards {
+    display: inline-block;
+    padding: 50px;
+    padding-top: 0;
+    position: absolute;
+    right: 0;
+}
+
+.new-card {
+    padding: 70px;
+    margin-bottom: 15px;
+    width: 360px;
+    overflow: auto;
+    border: solid black 1px;
+    background-color: #cfc0df;
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.description {
+    font-weight: normal;
+    font-size: 18px;
+}

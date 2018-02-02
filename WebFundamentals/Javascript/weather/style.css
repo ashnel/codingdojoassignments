@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#wrapper {
+    width: 970px;
+    height: 280px;
+    margin: 0px auto;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+form {
+    vertical-align: bottom;
+    margin-top: 200px;
+}
+
+h1 {
+    margin-bottom: -100px;
+    margin-top: 82px;
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    padding: 15px;
+    cursor: pointer;
+    vertical-align: top;
+    font-size: 20px;
+}

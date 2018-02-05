@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+}
+
+div.row div {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.brick {
+    background-color: blue;
+}
+
+div.coin {
+    background: url('images/coin.gif') no-repeat center;
+    background-size: 20px;
+}
+
+div#pacman {
+    background: url('images/pacleft.gif') no-repeat center;
+    background-size: 20px;
+}
+
+.left {
+    background: url('images/pacman.png') no-repeat center;
+    background-size: 20px;
+    transform: rotateY(180deg);
+}
+
+.up {
+    background: url('images/pacman.png') no-repeat center;
+    background-size: 20px;
+    transform: rotate(-90deg);
+}
+
+.down {
+    background: url('images/pacman.png') no-repeat center;
+    background-size: 20px;
+    transform: rotate(90deg);
+}
+
+#score {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+p {
+    display: inline-block;
+}

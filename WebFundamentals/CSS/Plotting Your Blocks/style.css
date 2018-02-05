@@ -1,46 +1,75 @@
 ﻿/*CSS reset settings here*/
 *{
- margin: 0px;
- padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial
 }
-#wrapper{
- width: 950px;
- background-color: silver;
- margin: 0px auto;
- padding: 20px;
+
+#wrapper {
+    padding: 15px;
 }
+
 #header{
- height: 150px;
- background-color: green;
- margin-bottom: 20px;
+    height: 150px;
+    background-color: green;
 }
 #navigation{
- height: 300px;
- width: 200px;
- background-color: blue;
- display: inline-block;
- margin-right: 24px;
- margin-bottom: 100px;
+    height: 300px;
+    background-color: blue;
 }
 #main_content{
- height: 400px;
- width: 700px;
- background-color: red;
- display: inline-block;
- padding-right: 26px;
- position: fixed;
+    background-color: red;
+    padding: 10px;
 }
 .subcontents{
- height: 200px;
- width: 210px;
- background-color: yellow;
- display: inline-block;
- margin: 10px auto 20px 10px;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
 }
 #advertisement{
- height: 120px;
- width: 660px;
- background-color: purple;
- display: inline-block;
- margin: auto auto 20px 10px;
+    height: 120px;
+    background-color: purple;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.col {
+    vertical-align: top;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+    .sm-4 {
+        width: 100%;
+    }
+
+    .sm-0 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .med-4 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .med-2 {
+        width: 50%;
+    }
+
+    .med-0 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lg-1 {
+        display: inline-block;
+        width: 25%;
+    }
+    .lg-3 {
+        width: 75%;
+    }
 }
